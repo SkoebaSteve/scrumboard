@@ -25,57 +25,26 @@
 			  <!-- Collect the nav links, forms, and other content for toggling -->
 			  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			    <ul class="nav navbar-nav">
-			      <li class="active"><a href="index.html">SCRUM board</a></li>
+			      <li><a href="index.html">SCRUM board</a></li>
 			      <li><a href="#">Task overview</a></li>
 			      <li><a href="#">My tasks</a></li>
-			      <li><a href="team.html">Team</a></li>
+			      <li class="active"><a href="burndown.html">Burndown</a></li>
 			    </ul>
 			    <ul class="nav navbar-nav navbar-right">
-			    	<li><a href="#">messages&nbsp;<span id="messageBubble" class="btn-info badge pull-right"></span></a></li>
-				    <li class="dropdown">
-					    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
-					    <ul class="dropdown-menu">
-						    <li><a href="#">Settings</a></li>
-						    <li class="divider"></li>
-						    <li><a href="#">Logout</a></li>
-					    </ul>
-				    </li>
+			      <li class="dropdown">
+			        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
+			        <ul class="dropdown-menu">
+			          <li><a href="#">Settings</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Logout</a></li>
+			        </ul>
+			      </li>
 			    </ul>
 			  </div><!-- /.navbar-collapse -->
 			</nav>
 		</div><!-- /.row-fluid -->
 		<div class="row-fluid">
-			<div id="1" class="col-md-3">
-				<h2>Sprint backlog</h2>
-				<ul class="list-group">
-					<!-- <lh class="list-group-item">Sprint backlog</lh> -->
-  					<li class="list-group-item">
-    					<!-- <span class="badge">14</span> -->
-    					<span class="task">Cras justo odio</span>
-    					<span class="glyphicon glyphicon-chevron-right pull-right move-item"></span>
-  					</li>
-  					<li class="list-group-item">
-    					<!-- <span class="badge">14</span> -->
-    					Cras justo odio
-    					<span class="glyphicon glyphicon-chevron-right pull-right move-item"></span>
-  					</li>
-				</ul>
-			</div>
-	  		<div id="2" class="col-md-3">
-	  			<h2>Todo</h2>
-				<ul class="list-group">
-				</ul>
-	  		</div>
-	  		<div id="3"class="col-md-3">
-	  			<h2>Checkout</h2>
-				<ul class="list-group">
-				</ul>
-	  		</div>
-	  		<div id="4" class="col-md-3">
-	  			<h2>Done</h2>
-				<ul class="list-group">
-				</ul>
-	  		</div>
+			<canvas id="myChart" width="1000" height="400"></canvas>
 		</div><!-- /.row-fluid -->
 	</div><!-- /.container-fluid -->
 	
@@ -85,7 +54,7 @@
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/bootbox.min.js"></script>
+	<script src="js/Chart.min.js"></script>
 	<script src="js/functions.js"></script>
 </body>
 </html>
