@@ -1,0 +1,17 @@
+<xml>
+	<task>
+		<name>simple to do list</name>
+		<date>2013-11-07</date>
+		<done>yes</done>
+	</task>
+	<task>
+		<name>add checkboxes</name>
+		<date>2013-11-08</date>
+		<done>no</done>
+	</task>
+	<task>
+		<name>form for submitting tasks</name>
+		<date>2013-11-09</date>
+		<done>no</done>
+	</task>
+</xml>
